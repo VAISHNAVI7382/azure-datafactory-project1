@@ -20,7 +20,7 @@ Fetch the data as it is from REST API to ADLS LOCATION.
 Create one dataset for the purchase, clean the data and store as parquet format.
 
 # --> Gold layer-
-Create aggregate report, what is the total purchase and reveue on daily basis and share with clients or create sql table pointing to gold dataset so client can query
+Create aggregate report, what is the total purchase and reveue on daily basis and share with clients or create sql table pointing to gold dataset so that client can query
 
 
 
