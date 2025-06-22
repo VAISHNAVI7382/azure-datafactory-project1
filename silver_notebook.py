@@ -12,5 +12,5 @@ df_silver = (
         "product_category", "payment_method", "amount", "location"
     )
 )
-df_silver.write.mode("overwrite").parquet("abfss://retail@pocretail.dfs.core.windows.net/silver/")
+df_silver.write.mode("overwrite").parquet("https://vaishnaviadlsgen2june.blob.core.windows.net/datafiles/silver/")
 
